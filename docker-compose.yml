@@ -2,7 +2,7 @@ version: '2'
 services: 
     node: 
         build: . 
-        image: dockersuicidesquad1_node
+        image: dockersuicidesquad2_node
         ports:
             - "3000"
 
