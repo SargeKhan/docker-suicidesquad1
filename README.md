@@ -18,3 +18,10 @@ You can access the web app using:
 ```
 curl localhost:32783
 ```
+
+To check if all the containers terminate, stop one of the node image container
+````
+sudo docker stop <container_id>
+# to see if all the other node containers are alive or dead run the following command or look at the output of ./run_cluster
+sudo docker ps
+````
